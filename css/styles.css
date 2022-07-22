@@ -9,6 +9,7 @@ body {
 color: var(--main-title-color);
 background-color: var(--main-background-color);
 font-family: 'Roboto', sans-serif;
+
 }
 .list{
 list-style: none;
@@ -63,6 +64,7 @@ color: var(--accent-color);
 background-color: var(--secondary-background-color);
 text-align: center;
 }
+
 .hero-title{
 color: #FFFFFF;
 font-weight: 900;
@@ -70,6 +72,7 @@ font-size: 44px;
 line-height: 1.36;
 letter-spacing: 0.06em;
 }
+
 .hero-btn{
 font-family: inherit;
 color: #FFFFFF;
@@ -78,6 +81,7 @@ font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.06em;
+cursor: pointer;
 }
 /* -------------features---------------- */
 
@@ -164,11 +168,11 @@ font-family: 'Roboto', sans-serif;
 .portfolio-list{
 color: inherit;
 text-decoration: none;
+background-color: #F5F4FA;
 }
 
 .portfolio-btn{
 font-family: inherit;
-background-color: #F5F4FA;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
@@ -176,11 +180,13 @@ text-align: center;
 letter-spacing: 0.03em;
 text-decoration: none;
 text-transform: capitalize;
+cursor: pointer;
 }
 
 button:hover,
 button:focus{
-color: var(--accent-color);
+color: var(--main-background-color);
+background-color: var(--accent-color);
 }
 
 .portfolio-title{
