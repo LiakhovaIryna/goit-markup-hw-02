@@ -157,3 +157,50 @@ color: #FFFFFF;
 .adress:focus {
     color: var(--accent-color);
 }
+/* -------------PORTFOLIO---------------- */
+.portfolio{
+background-color: var(--main-background-color);
+font-family: 'Roboto', sans-serif;
+}
+.portfolio-list{
+color: inherit;
+list-style: none;
+text-decoration: none;
+}
+
+.portfolio-btn{
+font-family: inherit;
+background-color: #F5F4FA;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+text-decoration: none;
+text-transform: capitalize;
+}
+
+.portfolio-btn:focus
+.portfolio-btn:hover{
+color: var(--accent-color);
+}
+
+.portfolio-title{
+text-transform: capitalize;
+font-weight: 700;
+font-size: 18px;
+line-height: 2.00;
+letter-spacing: 0.06em;
+}
+.portfolio-link{
+text-decoration: none;
+color: inherit;
+}
+.portfolio-filtr{
+text-transform: capitalize;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: #757575;
+}
