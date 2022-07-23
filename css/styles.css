@@ -56,6 +56,10 @@ text-decoration: none;
 .header-item.tel {
 color: var(--secondary-title-color);
 }
+.header-item.tel.envelop:before{
+content: '\2709';
+}
+
 
 .header-item:hover,
 .header-item:focus {
