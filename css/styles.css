@@ -14,7 +14,9 @@ font-family: 'Roboto', sans-serif;
 .list{
 list-style: none;
 }
-
+.header-item.current{
+color: var(--accent-color);
+}
 /* -------------header+logo+nav---------------- */
 .header{
 background-color: #ECECEC;
